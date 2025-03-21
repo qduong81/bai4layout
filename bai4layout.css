@@ -1,0 +1,121 @@
+.navbar{
+    background-color: #1b2631;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    font-family: sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navbar a{
+    text-decoration: none;
+    color: grey;
+}
+.navbar a.nentang{
+    margin-left: 13px;
+    color: #fff;
+}
+.item2 a{
+    margin-right: 18px;
+}
+.navbar a.trangchu{
+    color: #fff;
+}
+.box{
+    border: 1px solid #e5e7e9;
+    height: 20px;
+    width: 190px;
+    color: #2874a6;
+}
+.box1,.box2,.box3{
+    padding: 15px 0 10px 15px;
+}
+.sanpham-one{
+    background-color: #fff;
+    width: 245px;
+    height: 350px;
+    margin-top: 20px;
+}
+.noidung1{
+    background-color: #d7dbdd;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-size: larger;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #a6acaf;
+}
+.noidung234{
+    background-color: #fff;
+    height: 200px;
+    padding-left: 15px;
+}
+.noidung2{
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.noidung3{
+    font-size: larger;
+    font-weight: bold;
+}
+.noidung3,.noidung4{
+    margin-top: 10px;
+}
+.ngoisao{
+    background-color: #d7dbdd;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.banquyen{
+    background-color: #283747;
+    height: 60px;
+    color: #fff;
+    clear: both;
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.netashop{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+}
+body{
+    width: 100%;
+}
+.boxchinh{
+    float: left;
+    /* border: 1px solid rgb(196, 177, 177); */
+    /* width: 190px; */
+    /* height: 1000px; */
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: flex-start;
+    width: 780px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+.anhnen{
+    width: 780px;
+    height: 370px;
+}
+.baoboc{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
